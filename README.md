@@ -23,7 +23,11 @@ pacman/
 ├── constants.py        # Screen size, cell size, speed
 ├── mazes.py            # Maze layout
 ├── renderer.py         # Maze walls, pellets, power pellets
-└── actors.py           # Characters, movement and collision
+├── actors.py           # Characters, movement and collision
+│
+└── assets/
+    ├── shapes/         # Custom Turtle shapes (e.g. pacman.gif, ghost.gif)
+    └── sounds/         # Game sound effects (e.g. eat.wav, powerup.wav)
 ```
 
 ## 🐍 Requirements
