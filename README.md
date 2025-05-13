@@ -20,7 +20,7 @@ Follow along to:
 pacman/
 │
 ├── main.py             # Runs the game loop
-├── constants.py        # Screen size, cell size, colors
+├── constants.py        # Screen size, cell size, speed
 ├── mazes.py            # Maze layout
 ├── renderer.py         # Maze walls, pellets, power pellets
 └── actors.py           # Characters, movement and collision
