@@ -14,14 +14,14 @@ YouTube Playlist: [Pac-Man in Python - Full Tutorial Series](https://www.youtube
 
 Use the links below to access the code for each episode:
 
-1. [Episode 1 – Project Setup](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode01_setup)
-2. [Episodes 2 & 3 – Grid & Maze Drawing](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode02_03_grid_and_maze)
-3. [Episode 4 – Player Movement](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode04_player_movement)
-4. [Episode 5 – Wall Collision](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode05_wall_collision)
-5. [Episode 6 – Pellet Collection & UI](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode06_pellets_ui)
-6. [Episode 7 – Basic Enemies](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode07_enemies_basic)
-7. [Episode 8 – Enemy AI & Polish](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode08_enemy_ai_polish)
-8. [Episode 9 – Final Game: Shapes & Sounds](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode09_shapes_and_sounds)
+1. [Episode 1 – Project Setup](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode01)
+2. [Episodes 2 & 3 – Grid & Maze Drawing](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode02_03)
+3. [Episode 4 – Player Movement](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode04)
+4. [Episode 5 – Wall Collision](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode05)
+5. [Episode 6 – Pellet Collection & UI](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode06)
+6. [Episode 7 – Basic Enemies](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode07)
+7. [Episode 8 – Enemy AI & Polish](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode08)
+8. [Episode 9 – Final Game: Shapes & Sounds](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode09)
 
 📂 [View Full Project Structure](#-project-structure)
 
