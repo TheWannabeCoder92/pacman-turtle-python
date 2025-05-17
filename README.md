@@ -28,52 +28,52 @@ pacman-turtle-python/
     │   └── main.py
     │
     ├── episode02_03_grid_and_maze/
-    │   ├── main.py
     │   ├── constants.py
+    │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
     ├── episode04_player_movement/
-    │   ├── main.py
+    │   ├── actors.py
     │   ├── constants.py
+    │   ├── main.py
     │   ├── mazes.py
-    │   ├── renderer.py
-    │   └── actors.py
+    │   └── renderer.py
     │
     ├── episode05_wall_collision/
-    │   ├── main.py
+    │   ├── actors.py
     │   ├── constants.py
+    │   ├── main.py
     │   ├── mazes.py
-    │   ├── renderer.py
-    │   └── actors.py
+    │   └── renderer.py
     │
     ├── episode06_pellets_ui/
-    │   ├── main.py
+    │   ├── actors.py
     │   ├── constants.py
+    │   ├── main.py
     │   ├── mazes.py
-    │   ├── renderer.py
-    │   └── actors.py
+    │   └── renderer.py
     │
     ├── episode07_enemies_basic/
-    │   ├── main.py
+    │   ├── actors.py
     │   ├── constants.py
+    │   ├── main.py
     │   ├── mazes.py
-    │   ├── renderer.py
-    │   └── actors.py
+    │   └── renderer.py
     │
     ├── episode08_enemy_ai_polish/
-    │   ├── main.py
+    │   ├── actors.py
     │   ├── constants.py
+    │   ├── main.py
     │   ├── mazes.py
-    │   ├── renderer.py
-    │   └── actors.py
+    │   └── renderer.py
     │
     └── episode09_shapes_and_sounds/   # Final game + assets
-        ├── main.py
-        ├── constants.py
-        ├── mazes.py
-        ├── renderer.py
-        ├── actors.py
+    │   ├── actors.py
+    │   ├── constants.py
+    │   ├── main.py
+    │   ├── mazes.py
+    │   └── renderer.py
         ├── pac.gif
         ├── up.gif
         ├── down.gif
