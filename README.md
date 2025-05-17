@@ -69,25 +69,24 @@ pacman-turtle-python/
     │   └── renderer.py
     │
     └── episode09_shapes_and_sounds/   # Final game + assets
-    │   ├── actors.py
-    │   ├── constants.py
-    │   ├── main.py
-    │   ├── mazes.py
-    │   └── renderer.py
-        ├── pac.gif
-        ├── up.gif
-        ├── down.gif
-        ├── left.gif
-        ├── right.gif
-        ├── wall.gif
-        ├── red_enemy.gif
+        ├── actors.py
         ├── blue_enemy.gif
-        ├── pink_enemy.gif
-        ├── green_enemy.gif
-        ├── start_up.wav
+        ├── constants.py
+        ├── death.wav
+        ├── down.gif
         ├── eat.wav
-        └── death.wav
-
+        ├── green_enemy.gif
+        ├── left.gif
+        ├── main.py
+        ├── mazes.py
+        ├── pac.gif
+        ├── pink_enemy.gif
+        ├── red_enemy.gif
+        ├── renderer.py
+        ├── right.gif
+        ├── start_up.wav
+        ├── up.gif
+        └── wall.gif
 ```
 
 📦 **Note:**  
