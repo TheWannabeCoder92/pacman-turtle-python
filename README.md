@@ -8,6 +8,25 @@ The code is part of a full YouTube tutorial series, where we build the game step
 
 YouTube Playlist: [Pac-Man in Python - Full Tutorial Series](https://www.youtube.com/playlist?list=PL1XCNNzXQuPPglJxBB2itjcnX3U8g3U0q)
 
+---
+
+## 📚 Table of Contents
+
+Use the links below to access the code for each episode:
+
+1. [Episode 1 – Project Setup](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode01_setup)
+2. [Episodes 2 & 3 – Grid & Maze Drawing](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode02_03_grid_and_maze)
+3. [Episode 4 – Player Movement](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode04_player_movement)
+4. [Episode 5 – Wall Collision](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode05_wall_collision)
+5. [Episode 6 – Pellet Collection & UI](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode06_pellets_ui)
+6. [Episode 7 – Basic Enemies](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode07_enemies_basic)
+7. [Episode 8 – Enemy AI & Polish](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode08_enemy_ai_polish)
+8. [Episode 9 – Final Game: Shapes & Sounds](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode09_shapes_and_sounds)
+
+📂 [View Full Project Structure](#-project-structure)
+
+---
+
 Follow along to:
 - Learn basic game development concepts
 - Use Python's Turtle module for graphics
