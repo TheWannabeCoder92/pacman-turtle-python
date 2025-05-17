@@ -23,19 +23,76 @@ pacman-turtle-python/
 ├── LICENSE
 ├── .gitignore
 │
-└── pacman/
+└── episodes/
+    ├── episode01_setup/
+    │   └── main.py
     │
-    ├── main.py             # Runs the game loop
-    ├── constants.py        # Screen size, cell size, speed
-    ├── mazes.py            # Maze layout
-    ├── renderer.py         # Maze walls, pellets, power pellets
-    ├── actors.py           # Characters, movement and collision
+    ├── episode02_03_grid_and_maze/
+    │   ├── main.py
+    │   ├── constants.py
+    │   ├── mazes.py
+    │   └── renderer.py
     │
-    └── assets/
-        ├── shapes/         # Custom Turtle shapes (e.g. pacman.gif, ghost.gif)
-        └── sounds/         # Game sound effects (e.g. eat.wav, powerup.wav)
+    ├── episode04_player_movement/
+    │   ├── main.py
+    │   ├── constants.py
+    │   ├── mazes.py
+    │   ├── renderer.py
+    │   └── actors.py
+    │
+    ├── episode05_wall_collision/
+    │   ├── main.py
+    │   ├── constants.py
+    │   ├── mazes.py
+    │   ├── renderer.py
+    │   └── actors.py
+    │
+    ├── episode06_pellets_ui/
+    │   ├── main.py
+    │   ├── constants.py
+    │   ├── mazes.py
+    │   ├── renderer.py
+    │   └── actors.py
+    │
+    ├── episode07_enemies_basic/
+    │   ├── main.py
+    │   ├── constants.py
+    │   ├── mazes.py
+    │   ├── renderer.py
+    │   └── actors.py
+    │
+    ├── episode08_enemy_ai_polish/
+    │   ├── main.py
+    │   ├── constants.py
+    │   ├── mazes.py
+    │   ├── renderer.py
+    │   └── actors.py
+    │
+    └── episode09_shapes_and_sounds/   # Final game + assets
+        ├── main.py
+        ├── constants.py
+        ├── mazes.py
+        ├── renderer.py
+        ├── actors.py
+        ├── pac.gif
+        ├── up.gif
+        ├── down.gif
+        ├── left.gif
+        ├── right.gif
+        ├── wall.gif
+        ├── red_enemy.gif
+        ├── blue_enemy.gif
+        ├── pink_enemy.gif
+        ├── green_enemy.gif
+        ├── start_up.wav
+        ├── eat.wav
+        └── death.wav
+
 ```
 
+📦 **Note:**  
+`episode09_shapes_and_sounds/` contains the **final version** of the game, including all custom graphics and sound effects.  
+If you just want to play the complete Pac-Man clone, you can jump straight to that folder.
 
 ## 🐍 Requirements
 
