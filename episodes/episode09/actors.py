@@ -160,10 +160,8 @@ class Enemy(Actor):
                 # Corrections
                 elif -half_cell < dx + half_cell < half_cell and dy > half_cell and abs(dy) < CELL_SIZE:
                     self.sety(y + CELL_SIZE)
-                    self.start_move()
                 elif -half_cell < dx + half_cell < half_cell and dy < -half_cell and abs(dy) < CELL_SIZE:
                     self.sety(y - CELL_SIZE)
-                    self.start_move()
 
             elif heading == 180:  # Moving left
                 if -half_cell < dx - half_cell < half_cell and -half_cell <= dy <= half_cell:
@@ -172,10 +170,8 @@ class Enemy(Actor):
                 # Corrections
                 elif -half_cell < dx - half_cell < half_cell and dy > half_cell and abs(dy) < CELL_SIZE:
                     self.sety(y + CELL_SIZE)
-                    self.start_move()
                 elif -half_cell < dx - half_cell < half_cell and dy < -half_cell and abs(dy) < CELL_SIZE:
                     self.sety(y - CELL_SIZE)
-                    self.start_move()
 
             elif heading == 90:  # Moving up
                 if -half_cell <= dx <= half_cell and -half_cell < dy + half_cell < half_cell:
@@ -184,10 +180,8 @@ class Enemy(Actor):
                 # Corrections
                 elif dx > half_cell and abs(dx) < CELL_SIZE and -half_cell < dy + half_cell < half_cell:
                     self.setx(x + CELL_SIZE)
-                    self.start_move()
                 elif dx < -half_cell and abs(dx) < CELL_SIZE and -half_cell < dy + half_cell < half_cell:
                     self.setx(x - CELL_SIZE)
-                    self.start_move()
 
             elif heading == 270:  # Moving down
                 if -half_cell <= dx <= half_cell and -half_cell < dy - half_cell < half_cell:
@@ -196,10 +190,8 @@ class Enemy(Actor):
                 # Corrections
                 elif dx > half_cell and abs(dx) < CELL_SIZE and -half_cell < dy - half_cell < half_cell:
                     self.setx(x + CELL_SIZE)
-                    self.start_move()
                 elif dx < -half_cell and abs(dx) < CELL_SIZE and -half_cell < dy - half_cell < half_cell:
                     self.setx(x - CELL_SIZE)
-                    self.start_move()
 
 
     def move(self):
