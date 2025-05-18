@@ -43,51 +43,51 @@ pacman-turtle-python/
 ├── .gitignore
 │
 └── episodes/
-    ├── episode01_setup/
+    ├── episode01/     # Screen setup
     │   └── main.py
     │
-    ├── episode02_03_grid_and_maze/
+    ├── episode02_03/  # Grid & maze drawing
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode04_player_movement/
+    ├── episode04/     # Player setup
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode05_wall_collision/
+    ├── episode05/     # Wall collision
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode06_pellets_ui/
+    ├── episode06/     # UI & pellets collection
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode07_enemies_basic/
+    ├── episode07/     # Enemies setup
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode08_enemy_ai_polish/
+    ├── episode08/     # Final game logic
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    └── episode09_shapes_and_sounds/   # Final game + assets
+    └── episode09/     # Final game + assets
         ├── actors.py
         ├── blue_enemy.gif
         ├── constants.py
