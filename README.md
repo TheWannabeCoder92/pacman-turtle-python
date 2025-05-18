@@ -14,13 +14,13 @@ YouTube Playlist: [Pac-Man in Python - Full Tutorial Series](https://www.youtube
 
 Use the links below to access the code for each episode:
 
-1. [Episode 1 – Project Setup](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode01)
+1. [Episode 1 – Project & Screen Setup](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode01)
 2. [Episodes 2 & 3 – Grid & Maze Drawing](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode02_03)
-3. [Episode 4 – Player Movement](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode04)
+3. [Episode 4 – Player Setup](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode04)
 4. [Episode 5 – Wall Collision](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode05)
-5. [Episode 6 – Pellet Collection & UI](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode06)
-6. [Episode 7 – Basic Enemies](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode07)
-7. [Episode 8 – Enemy AI & Polish](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode08)
+5. [Episode 6 – UI & Pellet Collection](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode06)
+6. [Episode 7 – Enemies Setup](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode07)
+7. [Episode 8 – Enemy AI & Final Polish](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode08)
 8. [Episode 9 – Final Game: Shapes & Sounds](https://github.com/TheWannabeCoder92/pacman-turtle-python/tree/main/episodes/episode09)
 
 📂 [View Full Project Structure](#-project-structure)
@@ -43,10 +43,10 @@ pacman-turtle-python/
 ├── .gitignore
 │
 └── episodes/
-    ├── episode01/       # Screen setup
+    ├── episode01/       # Project & Screen setup
     │   └── main.py
     │
-    ├── episode02_03/    # Grid & maze drawing
+    ├── episode02_03/    # Grid & Maze Drawing
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
@@ -59,35 +59,35 @@ pacman-turtle-python/
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode05/       # Wall collision
+    ├── episode05/       # Wall Collision
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode06/       # UI & pellets collection
+    ├── episode06/       # UI & Pellet Collection
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode07/       # Enemies setup
+    ├── episode07/       # Enemies Setup
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    ├── episode08/       # Final game logic
+    ├── episode08/       # Enemy AI & Final Polish
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
-    └── episode09/       # Final game + assets
+    └── episode09/       # Final Game: Shapes & Sounds
         ├── actors.py
         ├── blue_enemy.gif
         ├── constants.py
