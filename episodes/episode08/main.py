@@ -81,14 +81,14 @@ def game_loop(screen, player, score_pen, lives_pen, pellet_pen, power_pen, playe
         for enemy in enemies:
             enemy.hideturtle()
             enemy.state = "stop"
-        screen.ontimer(lambda: screen.bye(), 3000)
+        screen.ontimer(screen.bye, 3000)
     # Game over - stop everything and close the game
     if player.lives == 0:
         player.state = "stop"
         player.hideturtle()
         for enemy in enemies:
             enemy.state = "stop"
-        screen.ontimer(lambda: screen.bye(), 3000)
+        screen.ontimer(screen.bye, 3000)
     # Update screen
     screen.update()
     # Repeat the function every 16ms
