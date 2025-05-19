@@ -44,15 +44,18 @@ pacman-turtle-python/
 │
 └── episodes/
     ├── episode01/       # Project & Screen setup
+    |   ├── README.md
     │   └── main.py
     │
     ├── episode02_03/    # Grid & Maze Drawing
+    |   ├── README.md
     │   ├── constants.py
     │   ├── main.py
     │   ├── mazes.py
     │   └── renderer.py
     │
     ├── episode04/       # Player setup
+    |   ├── README.md
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
@@ -60,6 +63,7 @@ pacman-turtle-python/
     │   └── renderer.py
     │
     ├── episode05/       # Wall Collision
+    |   ├── README.md
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
@@ -67,6 +71,7 @@ pacman-turtle-python/
     │   └── renderer.py
     │
     ├── episode06/       # UI & Pellet Collection
+    |   ├── README.md
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
@@ -74,6 +79,7 @@ pacman-turtle-python/
     │   └── renderer.py
     │
     ├── episode07/       # Enemies Setup
+    |   ├── README.md
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
@@ -81,6 +87,7 @@ pacman-turtle-python/
     │   └── renderer.py
     │
     ├── episode08/       # Enemy AI & Final Polish
+    |   ├── README.md
     │   ├── actors.py
     │   ├── constants.py
     │   ├── main.py
@@ -88,6 +95,7 @@ pacman-turtle-python/
     │   └── renderer.py
     │
     └── episode09/       # Final Game: Shapes & Sounds
+        ├── README.md
         ├── actors.py
         ├── blue_enemy.gif
         ├── constants.py
