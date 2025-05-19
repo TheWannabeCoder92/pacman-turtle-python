@@ -68,7 +68,12 @@ def game_loop(screen, player, score_pen, lives_pen, pellet_pen, power_pen, playe
         enemy.go_after_player()
         # Collision: player-enemy
         if enemy.distance(player) < CELL_SIZE / 2:
-            player.goto(random.choice(pellet_pen.pellets))
+            # Ensure player does not spawn near enemy
+            safe_spots = []
+            for pellet in pellet_pen.pellets:
+                if all(enemy.distance(pellet) > CELL_SIZE * 5 for enemy in enemies):
+                    safe_spots.append(pellet)
+            player.goto(random.choice(safe_spots))
             player.lives -= 1
     # Win game - stop everything and close the game
     if len(power_pen.stamps) == 0 and len(pellet_pen.stamps) == 0:
@@ -131,9 +136,11 @@ def main():
     # Create enemies:
     enemies = []
     for _ in range(ENEMY_NUMBER):
-        enemy_start_x, enemy_start_y = random.choice(pellets)
-        if (enemy_start_x, enemy_start_y) == (player_start_x, player_start_y):
+        # Ensure enemy does not spawn near player
+        while True:
             enemy_start_x, enemy_start_y = random.choice(pellets)
+            if player.distance(enemy_start_x, enemy_start_y) > CELL_SIZE * 5:
+                break
         enemy = Enemy(enemy_start_x, enemy_start_y, walls, player)
         enemies.append(enemy)
     # Start of the game settings
