@@ -79,10 +79,6 @@ def game_loop(screen, player, score_pen, lives_pen, pellet_pen, power_pen, playe
                     safe_spots.append(pellet)
             player.goto(random.choice(safe_spots))
             player.lives -= 1        
-        if enemy.distance(player) < CELL_SIZE / 2:
-
-            player.goto(random.choice(pellet_pen.pellets))
-            player.lives -= 1
     # Win game - stop everything and close the game
     if len(power_pen.stamps) == 0 and len(pellet_pen.stamps) == 0:
         player.state = "stop"
@@ -156,7 +152,7 @@ def main():
     for _ in range(ENEMY_NUMBER):
         # Ensure enemy does not spawn near player
         safe_spots = []
-        for pellet in pellet_pen.pellets:
+        for pellet in pellets:
             if player.distance(pellet) > CELL_SIZE * 5:
                  safe_spots.append(pellet)
         enemy_start_x, enemy_start_y = random.choice(safe_spots)
