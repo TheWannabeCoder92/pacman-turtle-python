@@ -138,7 +138,7 @@ def main():
     for _ in range(ENEMY_NUMBER):
         # Ensure enemy does not spawn near player
         safe_spots = []
-        for pellet in pellet_pen.pellets:
+        for pellet in pellets:
             if player.distance(pellet) > CELL_SIZE * 5:
                  safe_spots.append(pellet)
         enemy_start_x, enemy_start_y = random.choice(safe_spots)
