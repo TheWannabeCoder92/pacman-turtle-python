@@ -43,7 +43,7 @@ def game_loop(screen, player, score_pen, lives_pen, pellet_pen, power_pen, playe
     # Collision: player-pellet
     for (px, py), stamp_id in list(pellet_pen.stamps.items()):
         if player.distance(px, py) < CELL_SIZE / 2 and (px, py) != (player_start_x, player_start_y):
-            os.system("aplay eat.wav&")
+            os.system("aplay eat.wav > /dev/null 2>&1 &")
             pellet_pen.clearstamp(stamp_id)
             del pellet_pen.stamps[(px, py)]
             player.score += 2
@@ -54,7 +54,7 @@ def game_loop(screen, player, score_pen, lives_pen, pellet_pen, power_pen, playe
     # Collision: player-power pellet
     for (px, py), stamp_id in list(power_pen.stamps.items()):
         if player.distance(px, py) < CELL_SIZE / 2:
-            os.system("aplay eat.wav&")
+            os.system("aplay eat.wav > /dev/null 2>&1 &")
             power_pen.clearstamp(stamp_id)
             del power_pen.stamps[(px, py)]
             player.score += 50
@@ -71,7 +71,7 @@ def game_loop(screen, player, score_pen, lives_pen, pellet_pen, power_pen, playe
         enemy.go_after_player()
         # Collision: player-enemy
         if enemy.distance(player) < CELL_SIZE / 2:
-            os.system("aplay death.wav&")
+            os.system("aplay death.wav > /dev/null 2>&1 &")
             # Ensure player does not spawn near enemy
             safe_spots = []
             for pellet in pellet_pen.pellets:
@@ -160,7 +160,7 @@ def main():
         enemy.shape(random.choice(enemy_colors))
         enemies.append(enemy)
     # Start of the game settings
-    os.system("aplay start_up.wav&")
+    os.system("aplay start_up.wav > /dev/null 2>&1 &")
     screen.ontimer(lambda: bind_controls(screen, player), 2500)
     for enemy in enemies:
         screen.ontimer(enemy.start_move, 2500)
