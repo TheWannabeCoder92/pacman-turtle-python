@@ -143,6 +143,19 @@ class Enemy(Actor):
         self.state = "stop"
         self.player = player
 
+    def move(self):
+        if self.state != "stop":
+            self.forward(ENEMY_MOVE_SPEED)
+            # Screen wraparound
+            if round(self.ycor()) > SCREEN_HEIGHT / 2 - 2 * CELL_SIZE:
+                self.sety(-SCREEN_HEIGHT / 2)
+            elif round(self.ycor()) < -SCREEN_HEIGHT / 2:
+                self.sety(SCREEN_HEIGHT / 2 - 2 * CELL_SIZE)
+            elif round(self.xcor()) < -SCREEN_WIDTH / 2:
+                self.setx(SCREEN_WIDTH / 2)
+            elif round(self.xcor()) > SCREEN_WIDTH / 2:
+                self.setx(-SCREEN_WIDTH / 2)
+    
     def check_wall_collision(self):
         round_x = round(self.xcor())
         round_y = round(self.ycor())
@@ -193,20 +206,6 @@ class Enemy(Actor):
                 elif dx < -half_cell and abs(dx) < CELL_SIZE and -half_cell < dy - half_cell < half_cell:
                     self.setx(x - CELL_SIZE)
 
-
-    def move(self):
-        if self.state != "stop":
-            self.forward(ENEMY_MOVE_SPEED)
-            # Screen wraparound
-            if round(self.ycor()) > SCREEN_HEIGHT / 2 - 2 * CELL_SIZE:
-                self.sety(-SCREEN_HEIGHT / 2)
-            elif round(self.ycor()) < -SCREEN_HEIGHT / 2:
-                self.sety(SCREEN_HEIGHT / 2 - 2 * CELL_SIZE)
-            elif round(self.xcor()) < -SCREEN_WIDTH / 2:
-                self.setx(SCREEN_WIDTH / 2)
-            elif round(self.xcor()) > SCREEN_WIDTH / 2:
-                self.setx(-SCREEN_WIDTH / 2)
-
     def start_move(self):
         # Calculate right, left, top and bottom cell aorund the enemy
         right_cell = round(self.xcor()) + CELL_SIZE, round(self.ycor())
@@ -229,7 +228,6 @@ class Enemy(Actor):
         elif next_cell == bottom_cell:
             self.setheading(270)
         self.state = "move"
-
 
     def go_after_player(self):
         player_x = round(self.player.xcor())
