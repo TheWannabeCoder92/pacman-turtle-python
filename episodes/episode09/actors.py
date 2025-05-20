@@ -132,7 +132,6 @@ class Player(Actor):
             self.shape("pac.gif")
 
 
-
 class Enemy(Actor):
 
     def __init__(self, start_x, start_y, walls, player: Player):
