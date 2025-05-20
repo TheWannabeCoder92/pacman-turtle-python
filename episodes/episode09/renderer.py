@@ -109,7 +109,7 @@ class UiPen(Pen):
             self.clear()
             self.color("red")
             self.write(
-                f"Game Over!   Final Score: {score}", False, "left", self.font)
+                f"Game Over!     Final Score: {score}", False, "left", self.font)
         # Game won
         if len(pellet_stamps) == 0 and len(power_stamps) == 0:
             self.clear()
