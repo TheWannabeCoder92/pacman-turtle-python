@@ -108,7 +108,7 @@ class UiPen(Pen):
         self.write(msg, False, "left", self.font)
 
     def write_lives(self, lives):
-        "Write score on screen"
+        "Write lives on screen"
         self.clear()
         msg = f"Lives: {lives}"
         self.goto(0.7 * SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 2 * CELL_SIZE)
