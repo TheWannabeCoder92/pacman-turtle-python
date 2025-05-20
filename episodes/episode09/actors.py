@@ -139,8 +139,8 @@ class Enemy(Actor):
         super().__init__()
         self.showturtle()
         self.goto(start_x, start_y)
-        self.walls = walls
         self.state = "stop"
+        self.walls = walls
         self.player = player
 
     def move(self):
