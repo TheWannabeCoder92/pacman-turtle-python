@@ -97,7 +97,6 @@ pacman-turtle-python/
     └── episode09/       # Final Game: Shapes & Sounds
         ├── README.md
         ├── actors.py
-        ├── blue_enemy.gif
         ├── constants.py
         ├── death.wav
         ├── down.gif
