@@ -35,7 +35,7 @@ os.system("aplay sound.wav > /dev/null 2>&1 &")
 os.system("start sound.wav")
 ```
 
-#### 🍎 macOS (using afplay)
+#### 🍎 macOS (using `afplay`)
 ```python
 os.system("afplay sound.wav")
 ```
