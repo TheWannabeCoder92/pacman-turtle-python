@@ -27,8 +27,8 @@ os.system("aplay sound.wav > /dev/null 2>&1 &")
 
 - The & at the end plays the sound in the background.
 
-- > /dev/null 2>&1 hides any terminal output.
-```python
+- > /dev/null 2>&1 hides any terminal output. ```
+
 #### 🪟 Windows (using `start`)
 ```python
 os.system("start sound.wav")
