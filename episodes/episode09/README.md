@@ -34,7 +34,7 @@ import winsound
 winsound.PlaySound("sound.wav", winsound.SND_ASYNC)
 ```
 - Import `winsound` module at the top of `main.py`.
-- No need to import `os'.
+- No need to import `os`.
 
 #### 🍎 macOS (using `afplay`)
 ```python
