@@ -19,7 +19,7 @@ By the end of this episode, the game not only plays well — it *looks* and *sou
 
 ### 🔊 How to Play Sound on Different Operating Systems
 
-To play sound effects, we use the `os.system()` function (`Linux & Mac`), and 'winsound' module (`Windows`) to call system-level audio commands. The exact command depends on your operating system:
+To play sound effects, we use the `os.system()` function (`Linux & Mac`), and `winsound` module (`Windows`) to call system-level audio commands. The exact command depends on your operating system:
 
 #### 🐧 Linux (using `aplay`)
 ```python
