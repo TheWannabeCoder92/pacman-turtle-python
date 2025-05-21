@@ -24,11 +24,9 @@ To play sound effects, we use the `os.system()` function to call system-level au
 #### 🐧 Linux (using `aplay`)
 ```python
 os.system("aplay sound.wav > /dev/null 2>&1 &")
-
-- The & at the end plays the sound in the background.
-
-- > /dev/null 2>&1 hides any terminal output.
 ```
+- The ` &` at the end plays the sound in the background.
+- `> /dev/null 2>&1` hides any terminal output.
 
 #### 🪟 Windows (using `start`)
 ```python
