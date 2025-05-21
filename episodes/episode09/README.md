@@ -27,14 +27,17 @@ os.system("aplay sound.wav > /dev/null 2>&1 &")
 
 - The & at the end plays the sound in the background.
 
-- > /dev/null 2>&1 hides any terminal output. ```
+- > /dev/null 2>&1 hides any terminal output.
+```
 
 #### 🪟 Windows (using `start`)
 ```python
 os.system("start sound.wav")
+```
 
 #### 🍎 macOS (using afplay)
 ```python
 os.system("afplay sound.wav")
+```
 
 📁 Note: Make sure your .wav & .gif files are saved in the same directory as your Python script, or provide the full path to the file.
