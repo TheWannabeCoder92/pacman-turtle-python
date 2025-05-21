@@ -1,4 +1,4 @@
-# Pac-Man in Python 🎮
+# Pac-Man in Python 😶🎮
 
 This is a beginner-friendly Pac-Man clone built using Python's Turtle Graphics module.
 
