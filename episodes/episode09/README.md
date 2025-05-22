@@ -41,4 +41,4 @@ winsound.PlaySound("sound.wav", winsound.SND_ASYNC)
 os.system("afplay sound.wav")
 ```
 
-📁 Note: Make sure your **.wav** & **.gif** files are saved in the **same directory** as your Python script, or provide the full path to the file.
+📁 **Note:** Make sure your **.wav** & **.gif** files are saved in the **same directory** as your Python script, or provide the full path to the file.
