@@ -12,3 +12,6 @@ We create a new file called `actors.py`, where we define the player’s behavior
 - Binding arrow keys to allow real-time control of Pac-Man
 
 By the end of this episode, Pac-Man is fully visible on screen and can move through the maze using the keyboard.
+
+⚙️ Note:
+**Movement speed** may feel different across operating systems and computers. You can tweak the parameters inside `constants.py` to adjust the speed for a smoother experience.
