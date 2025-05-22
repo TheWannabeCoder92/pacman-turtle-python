@@ -120,6 +120,7 @@ pacman-turtle-python/
 - `episode09/` contains the **final version** of the game, including all custom graphics and sound effects.  
   If you just want to play the complete Pac-Man clone, you can jump straight to that folder.
 - 🔊 Sound command depends on your OS — see the `README.md` in `episode09/` for more details.
+- Movement speed may feel different across operating systems and computers. You can tweak the parameters inside `constants.py` to adjust the speed for a smoother experience.
 
 ## 📋 Requirements
 
