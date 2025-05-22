@@ -5,11 +5,11 @@ In these episodes, we focus on designing and rendering the game maze that Pac-Ma
 We break the maze into a grid-based system and build the core components that define and draw it on screen.
 
 ### 🛠️ What’s covered:
-- Defining the maze layout using a grid structure
-- Creating `constants.py` to store game constants like cell size, screen size, and tile characters
-- Creating `mazes.py` to hold the maze layout and a function to convert it into drawable coordinates
-- Creating `renderer.py` to draw the maze based on wall positions
-- Using Turtle Graphics to render the maze in the game window
+- Defining the maze layout using a grid structure.
+- Creating `constants.py` to store game constants like cell size, screen size, and tile characters.
+- Creating `mazes.py` to hold the maze layout and a function to convert it into drawable coordinates.
+- Creating `renderer.py` to draw the maze based on wall positions.
+- Using Turtle Graphics to render the maze in the game window.
 
 By the end of these episodes, we have a functional grid-based maze rendered in the game window — ready for Pac-Man and other game elements to interact with.
 
@@ -17,6 +17,6 @@ By the end of these episodes, we have a functional grid-based maze rendered in t
 You can modify the maze layout to create your own level design — just make sure to keep the same grid dimensions: `26 rows` by `33 columns`.
 Use the following characters:
 
-- `X` for walls
-- `.` for regular pellets
-- `O` for power pellets
+- `X` for walls.
+- `.` for regular pellets.
+- `O` for power pellets.
