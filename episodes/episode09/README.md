@@ -41,4 +41,6 @@ winsound.PlaySound("sound.wav", winsound.SND_ASYNC)
 os.system("afplay sound.wav")
 ```
 
-📁 **Note:** Make sure your `.wav` & `.gif` files are saved in the same directory as your Python script, or provide the full path to the file.
+📁 **Note:** 
+- Make sure your `.wav` & `.gif` files are saved in the same directory as your Python script, or provide the full path to the file.
+- Movement speed may feel different across operating systems and computers. You can tweak the parameters inside `constants.py` to adjust the speed for a smoother experience.
