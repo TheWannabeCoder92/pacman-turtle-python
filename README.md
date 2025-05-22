@@ -115,9 +115,10 @@ pacman-turtle-python/
         └── wall.gif
 ```
 
-📦 **Note:**  
-`episode09/` contains the **final version** of the game, including all custom graphics and sound effects.  
-If you just want to play the complete Pac-Man clone, you can jump straight to that folder.
+📦 **Note:** 
+- `episode08/` contains the final version of the game logic, before graphics and sound were added.
+- `episode09/` contains the **final version** of the game, including all custom graphics and sound effects.  
+  If you just want to play the complete Pac-Man clone, you can jump straight to that folder.
 
 ## 🐍 Requirements
 
