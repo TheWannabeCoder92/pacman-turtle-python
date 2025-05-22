@@ -28,10 +28,10 @@ Use the links below to access the code for each episode:
 ---
 
 Follow along to:
-- Learn basic game development concepts
-- Use Python's Turtle module for graphics
-- Practice clean, modular code structure
-- Build a playable Pac-Man game from scratch
+- Learn basic game development concepts.
+- Use Python's Turtle module for graphics.
+- Practice clean, modular code structure.
+- Build a playable Pac-Man game from scratch.
 
 ## 📁 Project Structure
 
