@@ -12,3 +12,11 @@ We break the maze into a grid-based system and build the core components that de
 - Using Turtle Graphics to render the maze in the game window
 
 By the end of these episodes, we have a functional grid-based maze rendered in the game window — ready for Pac-Man and other game elements to interact with.
+
+#### 🧩 Customizing the maze:
+You can modify the maze layout to create your own level design — just make sure to keep the same grid dimensions: `26 rows` by `33 columns`.
+Use the following characters:
+
+- X for walls
+- . for regular pellets
+- O for power pellets
