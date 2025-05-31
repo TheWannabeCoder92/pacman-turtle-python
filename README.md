@@ -41,8 +41,8 @@ pacman-turtle-python/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── screenshots/
-│   └── final_game.png
+├── media/
+│   └── final_game.mp4
 │
 └── episodes/
     ├── episode01/       # Project & Screen setup
